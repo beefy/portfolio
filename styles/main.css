@@ -20,13 +20,17 @@ html, body {
 
 #background-contact {
     background-image: url(../images/map.png);
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
     background-size: cover;
     height: inherit;
 }
 
 #contact {
+    top:200%;
+    position: absolute;
 }
 
 #resume {
