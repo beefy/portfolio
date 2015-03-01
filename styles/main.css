@@ -37,5 +37,6 @@ html, body {
     background-image: url(../images/Resume.jpg);
     width: inherit;
     background-size: contain;
-    height: 1750px;
+    background-repeat: no-repeat;
+    height: 1750px
 }
