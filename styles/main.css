@@ -6,6 +6,17 @@ html, body {
     border-width: 0px;
 }
 
+.contact_image {
+    margin-top:4.5%;
+    margin-bottom:2.5%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    height:15%;
+    width:15%;
+    background-repeat:no-repeat;
+    cursor: pointer;
+}
+
 #cover {
     background-image: url(../images/skyline5.jpg);
     background-size: cover;
@@ -31,6 +42,7 @@ html, body {
 #contact {
     top:200%;
     position: absolute;
+    width:100%;
 }
 
 #resume {
@@ -43,4 +55,33 @@ html, body {
 
 #column1, #column2 {
     margin-top:5%;
+}
+
+#contact_title {
+    margin-top:10%;
+    margin-left:34%;
+}
+
+#contact1 {
+    content:url(../images/github.png);
+}
+
+#contact2 {
+    content:url(../images/bitbucket.png);
+}
+
+#contact3 {
+    content:url(../images/outlook.png);
+}
+
+#contact4 {
+    content:url(../images/facebook.jpg);
+}
+
+#contact5 {
+    content:url(../images/youtube.jpg);
+}
+
+#contact6 {
+    content:url(../images/linkedin.png);
 }

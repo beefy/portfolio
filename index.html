@@ -3,29 +3,29 @@
 <head>
 
     <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
     <title>Nathaniel Schultz</title>
     <meta name="Portfolio for Nathaniel Schultz, Local Philly Coder" content="">
     <meta name="Nathaniel Schultz" content="">
 
     <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href='http://fonts.googleapis.com/css?family=Graduate|Righteous' rel='stylesheet' type='text/css'>
     <link href="styles/font.css" rel="stylesheet" type="text/css">
 
     <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/skeleton.css">
     <link rel="stylesheet" href="styles/main.css" />
 
     <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
     <!-- Jquery
@@ -33,7 +33,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
     <!-- Parallax
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="scripts/parallax.js"></script>
 
 
@@ -41,16 +41,16 @@
 <body onscroll="page_parallax()">
 
     <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="parallax-window" data-parallax="scroll" id="cover">
         <div class="section hero">
             <div class="container">
                 <!--<div class="row">-->
-                    <h1>Nathaniel Schultz</h1>
-                    <h2>Student Programmer</h2>
-                </div>
+                <h1>Nathaniel Schultz</h1>
+                <h2>Student Programmer</h2>
             </div>
         </div>
+    </div>
     </div>
 
     <div id="work">
@@ -182,7 +182,22 @@
         <div class="section hero" id="Div2">
             <div class="container">
                 <div class="row">
-                    <h1>Contact</h1>
+
+                    <h1 id="contact_title">Contact</h1>
+
+                    <!--<div class="contact_image" id="contact1"></div>
+                    <div class="contact_image" id="contact2"></div>
+                    <div class="contact_image" id="contact3"></div>
+                    <div class="contact_image" id="contact4"></div>
+                    <div class="contact_image" id="contact5"></div>
+                    <div class="contact_image" id="contact6"></div>-->
+
+                    <a href="https://github.com/nschultz14" target="_blank"><img id="contact1" class="contact_image"></a>
+                    <a href="https://bitbucket.org/nateschultz" target="_blank"><img id="contact2" class="contact_image"></a>
+                    <a href="mailto:nate.schultz@outlook.com" target="_blank"><img id="contact3" class="contact_image"></a>
+                    <a href="https://www.facebook.com/nate.schultz11" target="_blank"><img id="contact4" class="contact_image"></a>
+                    <a href="https://www.youtube.com/channel/UCvOj6pd0NX0Ln9GVlS94xNA" target="_blank"><img id="contact5" class="contact_image"></a>
+                    <a href="https://www.linkedin.com/profile/view?id=343576962&trk=hp-identity-name" target="_blank"><img id="contact6" class="contact_image"></a>
                 </div>
             </div>
         </div>
@@ -190,7 +205,7 @@
         <div class="section hero" id="Div3">
         </div>
     </div>
-    
+
     <div id="resume" style="cursor: pointer;" onclick="window.location = 'https://www.dropbox.com/s/5ectopk9gxjz8cg/Nate_Schultz_Resume.pdf?dl=1';">
     </div>
 </body>
