@@ -4,6 +4,7 @@ h1 {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 25.5px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 h2 {
 	font-family: Graduate;
@@ -11,6 +12,7 @@ h2 {
 	font-style: normal;
 	font-weight: 200;
 	line-height: 25.5px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 p {
 	font-family: Righteous;
@@ -18,6 +20,7 @@ p {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 25.5px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 blockquote {
 	font-family: Raleway;

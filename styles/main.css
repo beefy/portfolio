@@ -18,15 +18,20 @@ html, body {
     height: inherit;
 }
 
-#contact {
+#background-contact {
     background-image: url(../images/map.png);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
     background-size: cover;
     height: inherit;
+}
+
+#contact {
 }
 
 #resume {
     background-image: url(../images/Resume.jpg);
     width: inherit;
-    background-size:contain;
-    height:1750px;
+    background-size: contain;
+    height: 1750px;
 }
