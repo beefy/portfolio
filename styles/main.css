@@ -2,6 +2,11 @@ html, body {
     height: 100%;
 }
 
+a {
+    color: #000000;
+    text-decoration:none;
+}
+
 .tbl_list {
     border-width: 0px;
 }
@@ -51,6 +56,13 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
     height: 1750px
+}
+
+.resume_link {
+
+    cursor:pointer;
+    background-color:#297ACC;
+    text-align:center;
 }
 
 #column1, #column2 {
