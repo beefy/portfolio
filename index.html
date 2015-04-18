@@ -32,13 +32,24 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-    <!-- Parallax
+    <!-- Angular
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="scripts/parallax.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+    <!-- Declare App Dependencies
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script>
+        angular.module('myApp', ['angular-momentum-scroll']);
+    </script>
+
+    <!-- Momentum Scrolling
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="scripts/scrollable.js"></script>    
 
 
 </head>
-<body onscroll="page_parallax()">
+
+<body scrollable parameters="{{ {vScroll : true, snap: '.row'} }}">
 
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
